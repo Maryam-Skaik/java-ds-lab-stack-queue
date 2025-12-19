@@ -12,7 +12,7 @@
 
 Watch the full Stack & Queue lab lecture on YouTube:
 
-👉 []()
+👉 [Stack & Queue Lecture](https://youtu.be/7oQVEISshrk)
 
 ---
 
