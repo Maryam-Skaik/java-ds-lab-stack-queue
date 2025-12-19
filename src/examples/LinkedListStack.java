@@ -1,7 +1,3 @@
-package stack.queue;
-
-import stack.queue.SingleLinkedList.Node;
-
 /**
  * Generic Stack implementation using a linked list.
  * Supports push, pop, peek, isEmpty operations.
