@@ -1,7 +1,3 @@
-package stack.queue;
-
-import stack.queue.SingleLinkedList.Node;
-
 /**
  * Generic Queue implementation using a linked list.
  * Supports enqueue, dequeue, peek, display, getSize, isEmpty operations.
