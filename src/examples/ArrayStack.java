@@ -1,5 +1,3 @@
-package stack.queue;
-
 /**
  * Generic Stack implementation using an array.
  * Supports push, pop, peek, isEmpty operations.
