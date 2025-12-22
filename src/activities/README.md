@@ -50,9 +50,19 @@ These activities train you to:
 
 ---
 
-## 🧩 Solutions to Activities
+## ⏳ About Solutions to Activities
 
 Now, the solutions to these activities are available! Below, you'll find a detailed explanation of each solution, followed by time complexity analysis.
+
+---
+
+## 🎥 Video Walkthrough of Solutions
+
+For a step-by-step explanation of all the solutions, watch this video:
+
+- [Watch the Solution Video](https://youtu.be/YrEqkCCgQ7w)
+
+This video will guide you through the solutions for each activity, including time complexity analysis and helpful tips for mastering stack and queue operations.
 
 ---
 
@@ -351,20 +361,6 @@ After completing these activities, you should be able to:
 - Reverse data structures using different techniques
 - Understand recursion vs. stack-based solutions
 - Write clean and readable Java code
-
----
-
-## ⏳ About Solutions
-
-✅ **Solutions will be uploaded later** in a separate folder.
-
-Until then:
-
-- Try solving the problems on your own
-- Trace the logic manually
-- Test with multiple inputs
-
-. 📌 Remember: understanding the process is more important than copying the solution.
 
 ---
 
