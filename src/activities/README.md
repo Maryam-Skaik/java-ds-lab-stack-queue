@@ -5,10 +5,6 @@ These activities are designed to help students **apply Stack and Queue concepts*
 
 > 🎯 **Goal:** Strengthen your understanding of how **Stack (LIFO)** and **Queue (FIFO)** behave internally and how they can be used to solve common data structure problems.
 
-⚠️ **Important:**  
-This folder currently contains **problem statements only**.  
-✔️ **Solutions will be uploaded later** after students have enough time to practice and attempt the problems independently.
-
 ---
 
 ## 📂 Folder Structure
@@ -54,6 +50,12 @@ These activities train you to:
 
 ---
 
+## 🧩 Solutions to Activities
+
+Now, the solutions to these activities are available! Below, you'll find a detailed explanation of each solution, followed by time complexity analysis.
+
+---
+
 ## 🧩 Activity 1: Reverse Singly Linked List Using Stack
 
 **File:** `ReverseSLLUsingStack.java`
@@ -66,8 +68,15 @@ Given a **Singly Linked List (SLL)**, reverse the list using a **Stack**.
 - Do NOT reverse by changing data values
 - Reversal must be done by manipulating **node references**
 
-### 🧠 Hint
-Push all nodes onto a stack, then rebuild the list by popping nodes.
+### 🧠 Approach
+
+- **Push all nodes onto a stack**, and then rebuild the list by popping nodes from the stack.
+- This approach uses the **LIFO (Last-In-First-Out)** nature of the stack to reverse the order of the nodes.
+
+### 🕒 Time Complexity
+
+- **Time Complexity:** O(n), where n is the number of nodes in the linked list.
+- **Space Complexity:** O(n), as we use a stack to store all nodes.
 
 ### 📐 Visualization
 
@@ -123,9 +132,15 @@ Sort a stack of integers using **only stack operations** and **one extra stack**
 - Only `push`, `pop`, and `peek` operations are allowed
 - Use an auxiliary stack to help with sorting
 
-### 🧠 Hint
+### 🧠 Approach
 
-Think of it like **insertion sort**, but using stacks.
+- Use the stack operations (`push`, `pop`, and `peek`) to sort the stack. We use an auxiliary stack to help maintain the sorted order.
+- The algorithm is similar to **insertion sort**, but instead of using an array, we manipulate stacks.
+
+### 🕒 Time Complexity
+
+- **Time Complexity:** O(n^2), because for each element, we may have to push/pop all other elements from the auxiliary stack.
+- **Space Complexity:** O(n), as we use one extra stack.
 
 ### 📐 Visualization
 
@@ -181,9 +196,15 @@ Given a string, determine whether it is a **palindrome using a Stack.**
 - Compare characters from the string with popped stack elements
 - Ignore case sensitivity if needed (based on your implementation)
 
-### 🧠 Hint
+### 🧠 Approach
 
-A stack naturally reverses order — use that to your advantage.
+- **Push all characters** of the string onto a stack.
+- **Pop the stack** and compare each character with the string from the beginning. If they match, the string is a palindrome.
+
+### 🕒 Time Complexity
+
+- **Time Complexity:** O(n), where n is the length of the string (for both the push and pop operations).
+- **Space Complexity:** O(n), as we use a stack to store characters.
 
 ### 📐 Visualization
 
@@ -235,9 +256,15 @@ Reverse a queue using **recursion only.**
 - Use recursion to reverse the queue
 - Base case must be clearly defined
 
-### 🧠 Hint
+### 🧠 Approach
 
-Dequeue → recurse → enqueue back during stack unwinding.
+- **Dequeue an element**, reverse the rest of the queue recursively, and **enqueue the dequeued element** after recursion unwinds.
+- This solution uses the system’s recursion stack to store the elements temporarily.
+
+### 🕒 Time Complexity
+
+- **Time Complexity:** O(n), where n is the number of elements in the queue (due to one dequeue and one enqueue per element).
+- **Space Complexity:** O(n), due to the recursion stack.
 
 ### 📐 Visualization
 
@@ -280,6 +307,16 @@ Reverse a queue using a **Stack.**
 - Dequeue all elements into a stack
 - Pop from stack and enqueue back
 - Compare this approach with the recursive one
+
+### 🧠 Approach
+
+- **Dequeue all elements from the queue** and push them onto a stack.
+- **Pop elements from the stack** and enqueue them back into the queue. This reverses the order of the elements.
+
+### 🕒 Time Complexity
+
+- **Time Complexity:** O(n), where n is the number of elements in the queue.
+- **Space Complexity:** O(n), as we use a stack to store the elements temporarily.
 
 ### 📐 Visualization
 
